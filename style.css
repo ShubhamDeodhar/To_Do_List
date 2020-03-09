@@ -1,0 +1,71 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+}
+.container{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:white;
+}
+p{
+    font-size: 250%;
+    font-weight:bolder;
+}
+.tasks{
+    color:black;
+    background:#f9ca24;
+    border-radius: 5%;
+    width:40%;
+    height:30%;
+}
+#f1{
+    position:absolute;
+    margin-left:5%;
+}
+#pending{
+    position: relative;
+    width:70%;
+}
+#tasksheet{
+    position: absolute;
+    width:60%;
+    height:70%;
+    top:30%;
+    left:40%;
+    background:#f9ca24;
+    color:black;
+}
+ul{
+    margin-left:10%;
+    font-size:30px;
+}
+#counter{
+    position:absolute;
+    width:250px;
+    height:250px;
+    top:35%;
+    left:10%;
+    background:#f9ca24;
+    border: 1px solid black;
+    border-radius: 50% 50%;
+}
+h2{
+    position: absolute;
+    top:35%;
+    left:12.5%;
+}
+#count{
+    position:absolute;
+    top:50%;
+    left:45%;
+}
+button{
+    background:transparent;
+    color:white;
+    border:none;
+    font-weight:bolder;
+    font-family: 'Indie Flower' cursive;
+    color:red;
+}
